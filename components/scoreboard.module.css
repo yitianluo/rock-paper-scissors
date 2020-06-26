@@ -1,0 +1,28 @@
+.scoreDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% 25%;
+    padding: 1% 5%;
+    border: 2px solid var(--header-outline);
+    border-radius: 2rem;
+}
+
+.score {
+    text-align: center;
+    background-color: white;
+    padding: 0 3rem;
+    border-radius: 1rem;
+}
+
+.score h1{
+    color: var(--score-text);
+    font-size:1rem;
+    margin-bottom: 0;
+}
+
+.score p{
+    color:var(--dark-text);
+    font-size:4rem;
+    margin: 0 0 6px 0;
+}

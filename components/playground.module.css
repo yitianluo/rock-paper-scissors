@@ -1,0 +1,78 @@
+.playground {
+    text-align: center;
+}
+
+.pattern {
+    position: relative;
+    margin-top: 8rem;
+}
+
+.triangle {
+    position: absolute;
+    width: 20vw;
+    left: 40vw;
+    z-index: -1;
+}
+
+.paper {
+    position: absolute;
+    width: 12vw;
+    padding-top:12vw;
+    top: -6vw;
+    left: 34vw;
+    background:linear-gradient(hsl(230, 89%, 62%) ,hsl(230, 89%, 65%));
+    border-radius: 6vw;
+}
+
+.innerCircle {
+    position: absolute;
+    width: 8vw;
+    padding-top:8vw;
+    background-color: white;
+    border-radius: 5vw;
+    top: 2vw;
+    left: 2vw;
+}
+
+
+.paper img {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+}
+
+.scissors {
+    position: absolute;
+    width: 12vw;
+    padding-top:12vw;
+    top: -6vw;
+    left: 54vw;
+    background:linear-gradient(hsl(39, 89%, 49%) ,hsl(40, 84%, 53%));
+    border-radius: 6vw;
+}
+
+.scissors img {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+}
+
+.rock {
+    position: absolute;
+    width: 12vw;
+    padding-top:12vw;
+    top: 11vw;
+    left: 44vw;
+    background:linear-gradient(hsl(349, 71%, 52%) , hsl(349, 70%, 56%));
+    border-radius: 6vw;
+}
+
+.rock img {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 30%;
+}
+

@@ -1,0 +1,38 @@
+.ruleboard {
+    background-color: white;
+    width: 26vw;
+    padding-top: 27vw;
+    text-align: center;
+    position: absolute;
+    left: 37vw;
+    top:12vw;
+    border-radius: 1vw;
+}
+
+.ruleboard img {
+    position: absolute;
+    width: 20vw;
+    top: 7vw;
+    left: 3vw;
+}
+
+.ruleboard h1 {
+    color: var(--dark-text);
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    margin: 0;
+    font-size: 3vw;
+}
+
+.ruleboard svg{
+    position: absolute;
+    top: 2.5vw;
+    left: 22vw;
+    width: 2vw;
+    fill:rgb(226,228,236);	
+}
+
+.ruleboard svg:hover{
+    cursor: pointer;
+}

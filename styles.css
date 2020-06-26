@@ -1,0 +1,27 @@
+:root {
+    --dark-text:hsl(229, 25%, 31%);
+    --score-text:hsl(229, 64%, 46%);
+    --header-outline:hsl(217, 16%, 45%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body{
+    background-image:linear-gradient(to right,hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    color: white;
+}
+
+.ruleButton {
+    letter-spacing: 5px;
+    padding: 0.5vw 1vw;
+    border: solid 1px white;
+    width: 6%;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 5vw;
+    bottom:1vw;
+}
+
+.ruleButton:hover{
+    cursor: pointer;
+}
