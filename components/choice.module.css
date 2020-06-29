@@ -1,0 +1,32 @@
+.outsideCircle {
+    position: absolute;
+    width: 20vw;
+    padding-top: 20vw;
+    left:2vw;
+    border-radius: 50%;
+}
+
+.innerCircle {
+    position: absolute;
+    width: 60%;
+    padding-top: 60%;
+    background-color: white;
+    top: 20%;
+    left: 20%;
+    border-radius: 50%;
+}
+
+.innerCircle img{
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+}
+
+@media (max-width:1028px){
+    .outsideCircle{
+        width: 30vw;
+        padding-top: 30vw;
+        left:5vw;
+    }
+}

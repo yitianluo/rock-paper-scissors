@@ -5,14 +5,14 @@
     margin: 3% 25%;
     padding: 1% 5%;
     border: 2px solid var(--header-outline);
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 
 .score {
     text-align: center;
     background-color: white;
     padding: 0 3rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .score h1{
@@ -26,3 +26,21 @@
     font-size:4rem;
     margin: 0 0 6px 0;
 }
+
+@media (max-width:1028px){
+    .scoreDiv{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80vw;
+        padding: 2vw 2vw;
+        margin: 3vw 8vw;
+        justify-content: space-between;
+ 
+    }
+
+    .score{
+        padding: 0 2rem;
+    }
+}
+

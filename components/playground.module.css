@@ -4,7 +4,7 @@
 
 .pattern {
     position: relative;
-    margin-top: 8rem;
+    margin-top: 10vw;
 }
 
 .triangle {
@@ -21,19 +21,18 @@
     top: -6vw;
     left: 34vw;
     background:linear-gradient(hsl(230, 89%, 62%) ,hsl(230, 89%, 65%));
-    border-radius: 6vw;
+    border-radius: 50%;
 }
 
 .innerCircle {
     position: absolute;
-    width: 8vw;
-    padding-top:8vw;
+    width: 60%;
+    padding-top:60%;
     background-color: white;
-    border-radius: 5vw;
-    top: 2vw;
-    left: 2vw;
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
 }
-
 
 .paper img {
     position: absolute;
@@ -49,7 +48,7 @@
     top: -6vw;
     left: 54vw;
     background:linear-gradient(hsl(39, 89%, 49%) ,hsl(40, 84%, 53%));
-    border-radius: 6vw;
+    border-radius: 50%;
 }
 
 .scissors img {
@@ -66,7 +65,7 @@
     top: 11vw;
     left: 44vw;
     background:linear-gradient(hsl(349, 71%, 52%) , hsl(349, 70%, 56%));
-    border-radius: 6vw;
+    border-radius: 50%;
 }
 
 .rock img {
@@ -76,3 +75,42 @@
     top: 30%;
 }
 
+@media (max-width:1028px){
+    .playground{
+        position: absolute;
+        top:60vw;
+        width: 80vw;
+    }
+
+    .pattern{
+        margin-top: 0;
+    }
+
+    .triangle {
+        width: 50vw;
+        left:25vw;
+    }
+
+    .paper {
+        width: 30vw;
+        padding-top: 30vw;
+
+        top:-15vw;
+        left: 15vw;
+    }
+
+    .scissors {
+        width: 30vw;
+        padding-top: 30vw;
+        top:-15vw;
+        left: 55vw;
+    }
+
+    .rock {
+        width: 30vw;
+        padding-top: 30vw;
+        top: 20vw;
+        left: 35vw;
+    }
+
+}
